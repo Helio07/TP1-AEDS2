@@ -326,7 +326,7 @@ int main() {
     long long int trocas = 0, comp = 0;
 
 
-    int tamanho, metodo, inst;
+    int tamanho;
     ifstream arqEntrada; 
     ofstream arqSaida; 
     char proximo[1000];
@@ -370,117 +370,117 @@ int main() {
     
     switch (op) {
         case 1:
-            EntradaArq = "ListaAleatoria-1000.txt";
+            EntradaArq = "../ListaAleatoria-1000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 2:
-            EntradaArq = "ListaAleatoria-10000.txt";
+            EntradaArq = "../ListaAleatoria-10000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 3:
-            EntradaArq = "ListaAleatoria-100000.txt";
+            EntradaArq = "../ListaAleatoria-100000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 4:
-            EntradaArq = "ListaAleatoria-1000000.txt";
+            EntradaArq = "../ListaAleatoria-1000000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 5:
-            EntradaArq = "ListaInversamenteOrdenada-1000.txt";
+            EntradaArq = "../ListaInversamenteOrdenada-1000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 6:
-            EntradaArq = "ListaInversamenteOrdenada-10000.txt";
+            EntradaArq = "../ListaInversamenteOrdenada-10000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 7:
-            EntradaArq = "ListaInversamenteOrdenada-100000.txt";
+            EntradaArq = "../ListaInversamenteOrdenada-100000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 8:
-            EntradaArq = "ListaInversamenteOrdenada-1000000.txt";
+            EntradaArq = "../ListaInversamenteOrdenada-1000000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 9:
-            EntradaArq = "ListaQuaseOrdenada-1000.txt";
+            EntradaArq = "../ListaQuaseOrdenada-1000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 10:
-            EntradaArq = "ListaQuaseOrdenada-10000.txt";
+            EntradaArq = "../ListaQuaseOrdenada-10000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 11:
-            EntradaArq = "ListaQuaseOrdenada-100000.txt";
+            EntradaArq = "../ListaQuaseOrdenada-100000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 12:
-            EntradaArq = "ListaQuaseOrdenada-1000000.txt";
+            EntradaArq = "../ListaQuaseOrdenada-1000000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 13:
-            EntradaArq = "ListaOrdenada-1000.txt";
+            EntradaArq = "../ListaOrdenada-1000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 14:
-            EntradaArq = "ListaOrdenada-10000.txt";
+            EntradaArq = "../ListaOrdenada-10000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 15:
-            EntradaArq = "ListaOrdenada-100000.txt";
+            EntradaArq = "../ListaOrdenada-100000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 16:
-            EntradaArq = "ListaOrdenada-1000000.txt";
+            EntradaArq = "../ListaOrdenada-1000000.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             break;
         case 17:
-            EntradaArq = "DicionarioAleatorio-29855.txt";
+            EntradaArq = "../DicionarioAleatorio-29855.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             nome = true;
             break;
         case 18:
-            EntradaArq = "DicionarioAleatorio-261791.txt";
+            EntradaArq = "../DicionarioAleatorio-261791.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             nome = true;
             break;
         case 19:
-            EntradaArq = "DicionarioInversamenteOrdenado-29855.txt";
+            EntradaArq = "../DicionarioInversamenteOrdenado-29855.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             nome = true;
             break;
         case 20:
-            EntradaArq = "DicionarioInversamenteOrdenado-261791.txt";
+            EntradaArq = "../DicionarioInversamenteOrdenado-261791.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             nome = true;
             break;
         case 21:
-            EntradaArq = "DicionarioOrdenado-29855.txt";
+            EntradaArq = "../DicionarioOrdenado-29855.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             nome = true;
             break;
         case 22:
-            EntradaArq = "DicionarioOrdenado-261791.txt";
+            EntradaArq = "../DicionarioOrdenado-261791.txt";
             SaidaArq =  "Saida_" + EntradaArq;
             arqSaida.open(SaidaArq);
             nome = true;
