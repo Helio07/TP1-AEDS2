@@ -24,11 +24,12 @@ void selectionSort(vector<int> &arr, int n, long long int& trocas, long long int
             comp++;
             if (arr[j] < arr[minIndex]) {
                 minIndex = j;
+                trocas++;
             }
         }
         if (minIndex != i) {
             swap(arr[i], arr[minIndex]);
-            trocas++; // Incrementa a variável de trocas
+             
         }
     }
     
@@ -187,11 +188,12 @@ void selectionSort_S(vector<string> &arr, int n, long long int& trocas, long lon
             comp++;
             if (arr[j] < arr[minIndex]) {
                 minIndex = j;
+                trocas++;
             }
         }
         if (minIndex != i) {
             swap(arr[i], arr[minIndex]);
-            trocas++; // Incrementa a variável de trocas
+            
         }
     }
     
